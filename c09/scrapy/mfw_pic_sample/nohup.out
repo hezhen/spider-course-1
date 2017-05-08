@@ -1,0 +1,167 @@
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] MongoDB starting : pid=39467 port=27017 dbpath=/data/db 64-bit host=HeZhens-MacBook-Pro.local
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] db version v3.2.10
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2k  26 Jan 2017
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] allocator: system
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] modules: none
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] build environment:
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-03-17T13:31:19.499+0800 I CONTROL  [initandlisten] options: {}
+2017-03-17T13:31:19.500+0800 I -        [initandlisten] Detected data files in /data/db created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2017-03-17T13:31:19.500+0800 W -        [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+2017-03-17T13:31:19.511+0800 I JOURNAL  [initandlisten] journal dir=/data/db/journal
+2017-03-17T13:31:19.511+0800 I JOURNAL  [initandlisten] recover begin
+2017-03-17T13:31:19.511+0800 I JOURNAL  [initandlisten] recover lsn: 187862030
+2017-03-17T13:31:19.511+0800 I JOURNAL  [initandlisten] recover /data/db/journal/j._15
+2017-03-17T13:31:19.521+0800 I JOURNAL  [initandlisten] recover applying initial journal section with sequence number 187950326
+2017-03-17T13:31:19.528+0800 I STORAGE  [initandlisten] recover create file /data/db/spider.ns 16MB
+2017-03-17T13:31:19.579+0800 I STORAGE  [initandlisten] recover create file /data/db/spider.0 64MB
+2017-03-17T13:31:19.772+0800 I JOURNAL  [initandlisten] recover cleaning up
+2017-03-17T13:31:19.772+0800 I JOURNAL  [initandlisten] removeJournalFiles
+2017-03-17T13:31:19.778+0800 I JOURNAL  [initandlisten] recover done
+2017-03-17T13:31:19.791+0800 I JOURNAL  [durability] Durability thread started
+2017-03-17T13:31:19.792+0800 I JOURNAL  [journal writer] Journal writer thread started
+2017-03-17T13:31:19.793+0800 I CONTROL  [initandlisten] 
+2017-03-17T13:31:19.793+0800 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2017-03-17T13:31:21.090+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+2017-03-17T13:31:21.090+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-03-17T13:31:21.091+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-03-17T13:31:22.020+0800 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2017-03-17T13:31:23.522+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63915 #1 (1 connection now open)
+2017-03-17T13:31:33.887+0800 I NETWORK  [conn1] end connection 127.0.0.1:63915 (0 connections now open)
+2017-03-17T13:33:20.407+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63970 #2 (1 connection now open)
+2017-03-17T13:33:20.410+0800 I NETWORK  [conn2] end connection 127.0.0.1:63970 (0 connections now open)
+2017-03-17T13:35:52.464+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64087 #3 (1 connection now open)
+2017-03-17T13:35:52.472+0800 I NETWORK  [conn3] end connection 127.0.0.1:64087 (0 connections now open)
+2017-03-17T13:37:41.248+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64152 #4 (1 connection now open)
+2017-03-17T13:37:41.252+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64153 #5 (2 connections now open)
+2017-03-17T13:37:41.252+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64154 #6 (3 connections now open)
+2017-03-17T13:37:41.253+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64155 #7 (4 connections now open)
+2017-03-17T13:37:41.253+0800 I INDEX    [conn4] allocating new ns file /data/db/pgceditors.ns, filling with zeroes...
+2017-03-17T13:37:41.298+0800 I STORAGE  [FileAllocator] allocating new datafile /data/db/pgceditors.0, filling with zeroes...
+2017-03-17T13:37:41.298+0800 I STORAGE  [FileAllocator] creating directory /data/db/_tmp
+2017-03-17T13:37:41.491+0800 I STORAGE  [FileAllocator] done allocating datafile /data/db/pgceditors.0, size: 64MB,  took 0.193 secs
+2017-03-17T13:37:41.535+0800 I COMMAND  [conn4] command pgceditors.relation command: create { create: "relation" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 6 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 41 } }, Database: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } protocol:op_query 282ms
+2017-03-17T13:37:41.535+0800 I COMMAND  [conn5] command pgceditors.reverse_relation command: create { create: "reverse_relation" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 3 } }, Database: { acquireCount: { W: 1 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 281228 } }, Metadata: { acquireCount: { W: 2 } } } protocol:op_query 282ms
+2017-03-17T13:37:41.536+0800 I COMMAND  [conn6] command pgceditors.article command: create { create: "article" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 3 } }, Database: { acquireCount: { W: 1 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 282137 } }, Metadata: { acquireCount: { W: 2 } } } protocol:op_query 283ms
+2017-03-17T13:37:41.537+0800 I COMMAND  [conn7] command pgceditors.img_map command: create { create: "img_map" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 3 } }, Database: { acquireCount: { W: 1 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 283454 } }, Metadata: { acquireCount: { W: 2 } } } protocol:op_query 284ms
+2017-03-17T13:37:41.793+0800 I INDEX    [conn4] build index on: pgceditors.img_map properties: { v: 1, key: { article_id: 1.0 }, name: "article_id_1", ns: "pgceditors.img_map" }
+2017-03-17T13:37:41.793+0800 I INDEX    [conn4] 	 building index using bulk method
+2017-03-17T13:37:41.815+0800 I INDEX    [conn4] build index done.  scanned 5615 total records. 0 secs
+2017-03-17T13:37:41.922+0800 I STORAGE  [FileAllocator] allocating new datafile /data/db/pgceditors.1, filling with zeroes...
+2017-03-17T13:37:42.565+0800 I STORAGE  [FileAllocator] done allocating datafile /data/db/pgceditors.1, size: 128MB,  took 0.642 secs
+2017-03-17T13:37:42.597+0800 I INDEX    [conn4] build index on: pgceditors.article_geo_index properties: { v: 1, key: { kgs.position: "2dsphere" }, name: "kgs.position_2dsphere", ns: "pgceditors.article_geo_index", 2dsphereIndexVersion: 3 }
+2017-03-17T13:37:42.597+0800 I INDEX    [conn4] 	 building index using bulk method
+2017-03-17T13:37:42.655+0800 I INDEX    [conn4] build index done.  scanned 1362 total records. 0 secs
+2017-03-17T13:37:42.655+0800 I COMMAND  [conn4] command pgceditors.$cmd command: createIndexes { createIndexes: "article_geo_index", indexes: [ { name: "_id_", ns: "pgceditors.article_geo_index", key: { _id: 1 } }, { name: "kgs.position_2dsphere", ns: "pgceditors.article_geo_index", 2dsphereIndexVersion: 3, key: { kgs.position: "2dsphere" } } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:144 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 5211 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 2109 } }, Database: { acquireCount: { W: 1 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 2324 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 3 } } } protocol:op_query 735ms
+2017-03-17T13:37:42.675+0800 I COMMAND  [conn6] command pgceditors.reverse_relation command: insert { insert: "reverse_relation", documents: 1000, writeConcern: { getLastError: 1, w: 1 }, ordered: false } ninserted:1000 keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 16, w: 16 } }, MMAPV1Journal: { acquireCount: { w: 1018 } }, Database: { acquireCount: { w: 16 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 736437 } }, Collection: { acquireCount: { W: 16 } } } protocol:op_query 758ms
+2017-03-17T13:37:42.678+0800 I COMMAND  [conn7] command pgceditors.relation command: insert { insert: "relation", documents: 1000, writeConcern: { getLastError: 1, w: 1 }, ordered: false } ninserted:1000 keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 16, w: 16 } }, MMAPV1Journal: { acquireCount: { w: 1018 } }, Database: { acquireCount: { w: 16 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 730471 } }, Collection: { acquireCount: { W: 16 } } } protocol:op_query 752ms
+2017-03-17T13:37:42.679+0800 I COMMAND  [conn5] command pgceditors.article command: insert { insert: "article", documents: 1000, writeConcern: { getLastError: 1, w: 1 }, ordered: false } ninserted:1000 keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 16, w: 16 } }, MMAPV1Journal: { acquireCount: { w: 1018 } }, Database: { acquireCount: { w: 16 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 734394 } }, Collection: { acquireCount: { W: 16 } }, Metadata: { acquireCount: { W: 1 } } } protocol:op_query 803ms
+2017-03-17T13:37:42.932+0800 I INDEX    [conn7] build index on: pgceditors.relation properties: { v: 1, key: { dest_type: 1.0 }, name: "dest_type_1", ns: "pgceditors.relation" }
+2017-03-17T13:37:42.932+0800 I INDEX    [conn7] 	 building index using bulk method
+2017-03-17T13:37:42.933+0800 I INDEX    [conn7] build index on: pgceditors.relation properties: { v: 1, key: { random_point: "2d" }, name: "random_point_2d", ns: "pgceditors.relation" }
+2017-03-17T13:37:42.933+0800 I INDEX    [conn7] 	 building index using bulk method
+2017-03-17T13:37:42.934+0800 I INDEX    [conn7] build index on: pgceditors.relation properties: { v: 1, key: { src_name: 1.0 }, name: "src_name_1", ns: "pgceditors.relation" }
+2017-03-17T13:37:42.934+0800 I INDEX    [conn7] 	 building index using bulk method
+2017-03-17T13:37:42.935+0800 I INDEX    [conn7] build index on: pgceditors.relation properties: { v: 1, key: { src_type: 1.0 }, name: "src_type_1", ns: "pgceditors.relation" }
+2017-03-17T13:37:42.935+0800 I INDEX    [conn7] 	 building index using bulk method
+2017-03-17T13:37:43.201+0800 I INDEX    [conn7] build index done.  scanned 16896 total records. 0 secs
+2017-03-17T13:37:43.201+0800 I COMMAND  [conn7] command pgceditors.$cmd command: createIndexes { createIndexes: "relation", indexes: [ { name: "_id_", ns: "pgceditors.relation", key: { _id: 1 } }, { ns: "pgceditors.relation", name: "dest_type_1", key: { dest_type: 1.0 } }, { name: "random_point_2d", ns: "pgceditors.relation", key: { random_point: "2d" } }, { ns: "pgceditors.relation", name: "src_name_1", key: { src_name: 1.0 } }, { name: "src_type_1", ns: "pgceditors.relation", key: { src_type: 1.0 } } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:144 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 84488 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 34111 } }, Database: { acquireCount: { W: 1 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 1538 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 8 } } } protocol:op_query 271ms
+2017-03-17T13:37:43.213+0800 I COMMAND  [conn5] command pgceditors.article command: insert { insert: "article", documents: 1000, writeConcern: { getLastError: 1, w: 1 }, ordered: false } ninserted:1000 keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 16, w: 16 } }, MMAPV1Journal: { acquireCount: { w: 1020 } }, Database: { acquireCount: { w: 16 }, acquireWaitCount: { w: 4 }, timeAcquiringMicros: { w: 272535 } }, Collection: { acquireCount: { W: 16 } } } protocol:op_query 322ms
+2017-03-17T13:37:43.339+0800 I INDEX    [conn5] build index on: pgceditors.article properties: { v: 1, key: { name: 1 }, name: "name_1", ns: "pgceditors.article" }
+2017-03-17T13:37:43.339+0800 I INDEX    [conn5] 	 building index using bulk method
+2017-03-17T13:37:43.341+0800 I INDEX    [conn5] build index on: pgceditors.article properties: { v: 1, key: { author: 1.0 }, name: "author_1", ns: "pgceditors.article" }
+2017-03-17T13:37:43.341+0800 I INDEX    [conn5] 	 building index using bulk method
+2017-03-17T13:37:43.346+0800 I INDEX    [conn5] build index on: pgceditors.article properties: { v: 1, key: { edit_time: -1.0 }, name: "edit_time_-1", ns: "pgceditors.article" }
+2017-03-17T13:37:43.346+0800 I INDEX    [conn5] 	 building index using bulk method
+2017-03-17T13:37:43.481+0800 I INDEX    [conn5] build index done.  scanned 10463 total records. 0 secs
+2017-03-17T13:37:43.481+0800 I COMMAND  [conn5] command pgceditors.$cmd command: createIndexes { createIndexes: "article", indexes: [ { name: "_id_", ns: "pgceditors.article", key: { _id: 1 } }, { name: "name_1", ns: "pgceditors.article", key: { name: 1 } }, { ns: "pgceditors.article", name: "author_1", key: { author: 1.0 } }, { name: "edit_time_-1", ns: "pgceditors.article", key: { edit_time: -1.0 } } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:144 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 41858 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 382 } }, Database: { acquireCount: { W: 1 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 6 } } } protocol:op_query 142ms
+2017-03-17T13:37:43.492+0800 I NETWORK  [conn6] end connection 127.0.0.1:64154 (3 connections now open)
+2017-03-17T13:37:43.492+0800 I NETWORK  [conn7] end connection 127.0.0.1:64155 (3 connections now open)
+2017-03-17T13:37:43.492+0800 I NETWORK  [conn5] end connection 127.0.0.1:64153 (3 connections now open)
+2017-03-17T13:37:43.492+0800 I NETWORK  [conn4] end connection 127.0.0.1:64152 (3 connections now open)
+2017-03-17T13:46:25.116+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T14:01:30.056+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T14:19:49.691+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T14:38:10.073+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T15:10:01.152+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T15:13:41.045+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49989 #8 (1 connection now open)
+2017-03-17T15:13:41.603+0800 I NETWORK  [conn8] end connection 127.0.0.1:49989 (0 connections now open)
+2017-03-17T15:25:03.925+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T15:34:42.415+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50544 #9 (1 connection now open)
+2017-03-17T15:34:42.419+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50545 #10 (2 connections now open)
+2017-03-17T15:34:42.939+0800 I NETWORK  [conn10] end connection 127.0.0.1:50545 (1 connection now open)
+2017-03-17T15:34:42.939+0800 I NETWORK  [conn9] end connection 127.0.0.1:50544 (1 connection now open)
+2017-03-17T15:35:41.814+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50555 #11 (1 connection now open)
+2017-03-17T15:35:41.818+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50556 #12 (2 connections now open)
+2017-03-17T15:35:42.333+0800 I NETWORK  [conn12] end connection 127.0.0.1:50556 (1 connection now open)
+2017-03-17T15:35:42.333+0800 I NETWORK  [conn11] end connection 127.0.0.1:50555 (1 connection now open)
+2017-03-17T15:40:07.604+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T15:55:14.167+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T16:10:19.359+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T16:18:13.998+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52979 #13 (1 connection now open)
+2017-03-17T16:18:14.002+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52980 #14 (2 connections now open)
+2017-03-17T16:18:14.555+0800 I NETWORK  [conn14] end connection 127.0.0.1:52980 (1 connection now open)
+2017-03-17T16:18:14.555+0800 I NETWORK  [conn13] end connection 127.0.0.1:52979 (1 connection now open)
+2017-03-17T16:18:19.458+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52983 #15 (1 connection now open)
+2017-03-17T16:25:24.367+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T16:40:27.831+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T16:55:30.682+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T17:10:33.111+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T17:25:36.483+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T17:40:39.190+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T18:55:31.799+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T19:10:33.682+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-17T20:16:18.328+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-18T15:11:40.930+0800 I COMMAND  [PeriodicTaskRunner] task: UnusedLockCleaner took: 145ms
+2017-03-18T21:58:34.157+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain address information for hostname HeZhens-MacBook-Pro.local: nodename nor servname provided, or not known
+2017-03-19T10:07:19.857+0800 I NETWORK  [conn15] end connection 127.0.0.1:52983 (0 connections now open)
+2017-03-19T15:01:56.817+0800 I COMMAND  [PeriodicTaskRunner] task: UnusedLockCleaner took: 161ms
+2017-03-20T10:57:21.078+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T11:12:24.809+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T11:27:27.779+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T11:42:33.242+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T13:37:30.596+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T13:52:34.278+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T14:07:37.707+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T14:22:41.025+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T14:56:34.628+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T15:11:41.663+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T15:26:45.600+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T15:41:49.786+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T15:56:53.456+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T16:11:57.246+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T16:27:00.718+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T16:42:04.504+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T16:57:07.759+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T17:12:11.463+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T17:27:14.645+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T17:42:17.881+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T17:57:21.081+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-20T18:12:24.643+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T09:14:14.699+0800 I COMMAND  [PeriodicTaskRunner] task: DBConnectionPool-cleaner took: 152ms
+2017-03-21T09:20:25.409+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T09:35:27.287+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T09:50:29.482+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T10:05:31.956+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T10:22:04.366+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T10:37:09.881+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T10:52:11.848+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T11:07:14.203+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T11:22:15.972+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T11:37:18.965+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T11:52:22.018+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T12:09:37.996+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T12:24:40.965+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T13:16:36.432+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T13:31:40.970+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T14:05:39.709+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T14:20:42.873+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T14:51:49.898+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T15:06:52.726+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T15:21:56.823+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T15:36:59.268+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T16:05:55.977+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T16:20:59.287+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
+2017-03-21T16:44:49.588+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain name info for: [ (10.2.40.180, "nodename nor servname provided, or not known"), (10.2.40.180, "nodename nor servname provided, or not known") ]
